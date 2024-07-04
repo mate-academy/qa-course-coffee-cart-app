@@ -14,7 +14,7 @@ https://coffeecart.mate.academy/. - This app is deployed for QA course basic mod
 ## The app contains a list of bugs:
 
 1. "Espresso Macchiato" coffees added to the cart when clicking on the cup.
-2. 2 extra coffees added to the cart when clicking '+' for any coffee in the list.
+2. 2 extra coffees added to the cart instead of 1 when clicking '+' for any coffee in the list.
 3. Button 'x' does not remove coffee from the cart list.
 4. "(Discounted) Mocha" has 5$ price instead of 4$ after it was added to the cart.
 5. "(Discounted) Mocha" added to the cart when "Nah, I'll skip was clicked". 
