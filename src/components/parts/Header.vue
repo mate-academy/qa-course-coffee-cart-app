@@ -7,7 +7,7 @@
       <router-link aria-label="Cart page" to="/cart">cart ({{ cartCount }})</router-link>
     </li>
     <li>
-      <router-link aria-label="GitHub page" to="/github">github</router-link>
+      <router-link aria-label="Contact us page" to="/cart">contact us</router-link>
     </li>
   </ul>
 </template>

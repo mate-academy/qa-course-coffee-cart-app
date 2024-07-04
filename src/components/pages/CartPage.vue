@@ -1,6 +1,6 @@
 <template>
   <div class="list" v-if="cartList">
-    <p v-if="!cartList.length">No coffee, go add some.</p>
+    <p v-if="!cartList.length">No coffee, go ad some.</p>
     <div v-if="cartList.length">
       <Pay :isDisablePreview="isHidePayPreview" />
       <ul>

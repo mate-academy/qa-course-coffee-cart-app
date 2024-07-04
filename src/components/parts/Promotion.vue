@@ -7,7 +7,7 @@
       </div>
       <div class="buttons">
         <button class="yes" @click="addToCart(coffee.name); close();">Yes, of course!</button>
-        <button @click="close()">Nah, I'll skip.</button>
+        <button @click="addToCart(coffee.name); close();">Nah, I'll skip.</button>
       </div>
 
     </div>

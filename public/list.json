@@ -78,7 +78,7 @@
     },
     {
         "name": "(Discounted) Mocha",
-        "price": 4,
+        "price": 5,
         "discounted": true,
         "recipe": [
             { "name": "espresso", "quantity": 30 },
