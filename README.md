@@ -12,15 +12,14 @@
 ## The app contains a list of bugs:
 
 1. "Espresso Macchiato" coffees added to the cart when clicking on the cup.
-2. 2 extra coffees added to the cart instead of 1 when clicking '+' for any coffee in the list.
-3. Button 'x' does not remove coffee from the cart list.
-4. "(Discounted) Mocha" has 5$ price instead of 4$ after it was added to the cart.
-5. "(Discounted) Mocha" added to the cart when "Nah, I'll skip was clicked". 
-6. "Contact us" link navigates to the Cart page.
-7. Wrong spelling in the message "No coffee, go add some."
-8. "Cappuccino" is not translated to Chinese. 
-9. "Cafe Latte" is not added to the Cart after clicking on the cup.
-10. "Espresso Con Panna" was added to the cart when clicking on "Cafe Breve" cup. 
+2. Button 'x' does not remove coffee from the cart list.
+3. "(Discounted) Mocha" has 5$ price instead of 4$ after it was added to the cart.
+4. "(Discounted) Mocha" added to the cart when "Nah, I'll skip was clicked". 
+5. "Contact us" link navigates to the Cart page.
+6. Wrong spelling in the message "No coffee, go add some."
+7. "Cappuccino" is not translated to Chinese. 
+8. "Cafe Latte" is not added to the Cart after clicking on the cup.
+9. "Espresso Con Panna" was added to the cart when clicking on "Cafe Breve" cup. 
 
 
 ## Getting started with this repo

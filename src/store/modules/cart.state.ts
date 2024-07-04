@@ -59,10 +59,6 @@ const mutations = {
       amountToAdd = 2;
     }
 
-    if (quantity > 0) { // Bug: when clicking + in the cart - add 2 instead of 1.
-      amountToAdd = 2;
-    }
-
     const list = [
       ...state.list.filter((x: any) => x.name !== coffee),
       {
