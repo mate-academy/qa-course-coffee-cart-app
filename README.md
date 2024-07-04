@@ -2,7 +2,7 @@
 
 # Coffee cart
 
-https://coffeecart.mate.academy/. - This app is deployed for QA course basic module.
+This app is deployed for QA course basic module.
 
 ## Special actions you can do
 1. **Double click** on coffee title to translate it to Chinese.
