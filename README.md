@@ -2,7 +2,7 @@
 
 # Coffee cart
 
-https://coffeecart.mate.academy/. This demo created with Vue 3 + Typescript + Vite.
+https://coffeecart.mate.academy/. - This app is deployed for QA course basic module.
 
 ## Special actions you can do
 1. **Double click** on coffee title to translate it to Chinese.
@@ -10,21 +10,25 @@ https://coffeecart.mate.academy/. This demo created with Vue 3 + Typescript + Vi
 3. [Desktop only] **Hover** over Pay button will show a quick cart preview, click to add or remove items.
 4. A random promo coffee pop up show up when adding every 3rd items to the cart. (e.g. 3, 6, 9, ...)
 5. The add to cart process will be slowing down (intentionally) when the cart has more than 7 items.
-6. Slow down page load performance with ads by passing in an `ads` param (e.g. https://coffee-cart.app/?ad=1).
 
-## To run it with slow performance
+## The branch "version1" contains a list of bugs:
 
-1. Run with https://coffee-cart.app?ad=1
-2. When the cart has more than 7 items, The process will be slowing down.
-3. Go to https://goo.gle/devtools-performance to learn more about how to perform performance analysis.
+1. "Espresso Macchiato" coffees added to the cart when clicking on the cup.
+2. 2 extra coffees added to the cart when clicking '+' for any coffee in the list.
+3. Button 'x' does not remove coffee from the cart list.
+4. "(Discounted) Mocha" has 5$ price instead of 4$ after it was added to the cart.
+5. "(Discounted) Mocha" added to the cart when "Nah, I'll skip was clicked". 
+6. "Contact us" link navigates to the Cart page.
+7. Wrong spelling in the message "No coffee, go add some."
+8. "Cappuccino" is not translated to Chinese. 
+9. "Cafe Latte" is not added to the Cart after clicking on the cup.
+10. "Espresso Con Panna" was added to the cart when clicking on "Cafe Breve" cup. 
 
-## To record a user flows / start a test
-
-1. Run with https://coffee-cart.app
-2. Go to https://goo.gle/devtools-recorder to learn how to record, replay user flows with DevTools Recorder.
 
 ## Getting started with this repo
 
 1. Download the project.
-2. Run `npm install`.
-3. Run `npm run dev` to start a local server.
+2. Switch to "version1" branch.
+3. Run `npm ci`.
+4. Run `npm run build` to build the app.
+5. Run `npm run serve` to start build version.
