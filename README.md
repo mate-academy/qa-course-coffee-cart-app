@@ -11,7 +11,7 @@ https://coffeecart.mate.academy/. - This app is deployed for QA course basic mod
 4. A random promo coffee pop up show up when adding every 3rd items to the cart. (e.g. 3, 6, 9, ...)
 5. The add to cart process will be slowing down (intentionally) when the cart has more than 7 items.
 
-## The branch "version1" contains a list of bugs:
+## The app contains a list of bugs:
 
 1. "Espresso Macchiato" coffees added to the cart when clicking on the cup.
 2. 2 extra coffees added to the cart when clicking '+' for any coffee in the list.
